@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#dropdown-box {
+  text-align: center;
+  margin: 30px;
+}
+
+#tooltip {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(28, 28, 28);
+  opacity: 0.6;
+  color: white;
+}
+
+.label-text {
+  font-family: monospace;
+  pointer-events: none;
+}
+
+.tick text {
+  font-size: 1.3em;
+}
